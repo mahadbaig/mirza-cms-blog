@@ -20,8 +20,8 @@ const Home: NextPage = () => {
         <title>Mirza CMS Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 bg-red-400">
-        <div className="lg:col-span-8 col-span-1 bg-red-300">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="lg:col-span-8 col-span-1">
         {
          posts.map((post) =>{    //The function in map should return
           return(
